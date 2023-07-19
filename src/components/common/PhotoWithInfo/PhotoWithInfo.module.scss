@@ -1,0 +1,31 @@
+.imgContainer {
+  min-width: 45px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F9FAFC;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.noImg {
+  border: 1px dashed #DDE5EC;
+  border-radius: 5px;
+}
+
+.info {
+  padding-left: 15px;
+  word-break: break-word;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}

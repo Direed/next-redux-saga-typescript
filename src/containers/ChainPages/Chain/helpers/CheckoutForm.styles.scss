@@ -1,0 +1,21 @@
+@import '../../../../styles/colors.scss';
+
+.card-error {
+  color: $main-red;
+  font-size: 14px;
+  line-height: 1.5715;
+  text-align: left;
+}
+
+.StripeElement {
+  width: 100%;
+  height: 40px;
+  padding: 12px;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid $main-grey;
+  background: $main-white;
+}
+
+.StripeElement--invalid {
+  border-bottom-color: $main-red;
+}

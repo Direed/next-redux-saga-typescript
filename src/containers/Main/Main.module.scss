@@ -1,0 +1,28 @@
+@import '../../styles/colors.scss';
+
+.mainContainer {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px 15px 40px 15px;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), no-repeat center/cover url('../../images/main.png');
+}
+
+.bigScreen {
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), no-repeat center/cover url('../../images/main-2.png');
+}
+
+.mainTitle {
+  color: $main-white !important;
+  text-align: center;
+}
+
+.logo {
+  height: 130px;
+  width: 130px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: no-repeat center/cover url('../../images/logo.svg');
+}

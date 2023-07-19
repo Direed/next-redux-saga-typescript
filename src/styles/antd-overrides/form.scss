@@ -1,0 +1,14 @@
+@import '../colors.scss';
+
+.ant-form-item-label > label::after,
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: none;
+}
+
+.ant-form-item-label > label {
+  color: $main-grey;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

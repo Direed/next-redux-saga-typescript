@@ -1,0 +1,10 @@
+@import '../../../styles/colors.scss';
+
+.step {
+  height: 9px;
+  background-color: $main-disabled;
+}
+
+.stepActive {
+  background-color: $main-purple;
+}

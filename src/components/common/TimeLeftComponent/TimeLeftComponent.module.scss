@@ -1,0 +1,38 @@
+%timeBlock {
+  color: #FFFFFF;
+  width: 95px;
+  line-height: 22px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.new {
+  @extend %timeBlock;
+  background: #1DC81A;
+}
+
+.today {
+  @extend %timeBlock;
+  background: #e84630;
+}
+
+.soon {
+  @extend %timeBlock;
+  background: #FF8A00;
+}
+
+
+.later {
+  @extend %timeBlock;
+  background: #B7E4A8;
+}
+
+.closed {
+  @extend %timeBlock;
+  background: #C0C0C0;
+}
+
+.expired {
+  @extend %timeBlock;
+  background: #1D1F21;
+}

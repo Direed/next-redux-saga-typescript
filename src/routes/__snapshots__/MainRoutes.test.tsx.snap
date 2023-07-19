@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainRoutes matches snapshot 1`] = `
+<Connect(CoreLayout)
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+  location={
+    Object {
+      "hash": "",
+      "key": "1",
+      "pathname": "",
+      "search": "",
+      "state": Object {},
+    }
+  }
+  match={
+    Object {
+      "isExact": false,
+      "params": Object {
+        "id": "1",
+      },
+      "path": "/route/:id",
+      "url": "/route/1",
+    }
+  }
+>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      key="/"
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      key="/sign-up"
+      path="/sign-up"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      key="/login"
+      path="/login"
+    />
+    <Connect(PrivateRoute)
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "type": [Function],
+        }
+      }
+      exact={true}
+      key="/home"
+      path="/home"
+    />
+    <Connect(PrivateRoute)
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "type": [Function],
+        }
+      }
+      exact={true}
+      key="/profile"
+      path="/profile"
+    />
+    <Route
+      component={[Function]}
+      path="*"
+    />
+  </Switch>
+</Connect(CoreLayout)>
+`;

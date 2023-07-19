@@ -1,0 +1,30 @@
+@import '../colors.scss';
+
+.ant-input {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+
+  border: none;
+  border-bottom: 1px solid $main-grey;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.ant-input-group-addon {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $main-grey;
+
+  .ant-select {
+    font-size: 16px;
+
+    .ant-select-selector {
+      box-shadow: none !important;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import '../../../styles/colors.scss';
+
+.toastButton {
+  :global {
+    .ant-btn {
+      height: 56px;
+      border-radius: 12px;
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      transition: none;
+
+      span:not(span[role="img"]):not(.ant-badge) {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .ant-btn-primary {
+      background-color: $main-purple;
+      border-color: $main-purple;
+    }
+
+    .ant-btn-link {
+      height: auto;
+      color: $main-purple;
+      padding: 5px 0;
+    }
+
+    .ant-btn-text {
+      display: flex;
+      align-items: center;
+      height: auto;
+      color: $main-black;
+      padding: 5px 0;
+
+      &:hover {
+        background: transparent;
+      }
+    }
+  }
+}
+
+.onlyIcon {
+  :global {
+    .ant-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: auto;
+      border: none;
+      padding: 0;
+      background-color: transparent;
+
+      &:focus,
+      &:active,
+      &:hover {
+        background-color: transparent;
+      }
+      
+      .anticon {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.small {
+  :global {
+    .ant-btn {
+      height: auto;
+      font-size: 14px;
+    }
+  }
+}
+
+.middle {
+  :global {
+    .ant-btn {
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+}

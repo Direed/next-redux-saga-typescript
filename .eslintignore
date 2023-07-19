@@ -1,0 +1,8 @@
+node_modules
+dist
+amplify
+build/*
+public/*
+.eslintrc
+src/react-app-env.d.ts
+src/serviceWorkerRegistration.ts

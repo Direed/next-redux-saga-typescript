@@ -1,0 +1,22 @@
+@import '../colors.scss';
+
+.ant-spin-blur {
+  opacity: 0.3;
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}
+
+.ant-spin {
+  .ant-spin-text {
+    color: $main-purple;
+  }
+
+  .ant-spin-dot {
+    .ant-spin-dot-item {
+      background-color: $main-purple;
+    }
+  }
+}

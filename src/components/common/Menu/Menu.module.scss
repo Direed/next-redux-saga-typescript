@@ -1,0 +1,19 @@
+@import '../../../styles/colors.scss';
+
+.menuContainer {
+  width: 250px;
+  border-radius: 13px;
+  background-color: $main-white;
+}
+
+.menuOverlay {
+  :global {
+    .ant-popover-inner {
+      border-radius: 13px;
+    
+      .ant-popover-inner-content {
+        padding: 0;
+      }
+    }
+  }
+}

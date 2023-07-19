@@ -1,0 +1,48 @@
+#pipeClickPowered-video-container {
+  display: none;
+}
+
+.video-saved {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#video-container {
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+.video-saved,
+.pipeMobileRecorder {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D8DDE3;
+  border: 2px dashed #9CA2A9;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.pipeFileInput {
+  height: 100px;
+  display: flex !important;
+  align-items: flex-end;
+  position: relative;
+  background: transparent !important;
+  border: none !important;
+
+  &::before {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: no-repeat center/cover url('../../../../images/img-icon.svg');
+  }
+}

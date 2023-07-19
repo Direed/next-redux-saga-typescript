@@ -1,0 +1,59 @@
+@import '../../../styles/colors.scss';
+
+.notifications,
+.all-chains {
+  width: 100%;
+  left: 0;
+  z-index: 3000;
+  position: fixed;
+  overflow-x: scroll;
+  background-color: $main-white;
+  padding-bottom: 40px;
+}
+
+.notifications {
+  top: -100%;
+}
+
+.notifications-enter {
+  top: -100%;
+}
+.notifications-enter-active {
+  top: 0;
+  transition: top .5s;
+}
+.notifications-exit {
+  top: 0;
+}
+.notifications-exit-active {
+  top: -100%;
+  transition: top .5s;
+}
+
+.notifications-enter-done {
+  top: 0;
+}
+
+.all-chains {
+  bottom: -100%;
+}
+
+.all-chains-enter {
+  bottom: -100%;
+}
+.all-chains-enter-active {
+  bottom: 0;
+  transition: bottom .5s;
+}
+.all-chains-exit {
+  bottom: 0;
+}
+.all-chains-exit-active {
+  bottom: -100%;
+  transition: bottom .5s;
+}
+
+.all-chains-enter-done {
+  top: 0;
+  bottom: 0;
+}

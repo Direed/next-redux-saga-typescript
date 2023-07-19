@@ -1,0 +1,21 @@
+@import '../../../styles/colors.scss';
+
+.footer {
+  min-height: 85px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 0px 2px 0px $box-shadow-color;
+  background-color: $main-white;
+}
+
+.extraText {
+  min-height: 20px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}

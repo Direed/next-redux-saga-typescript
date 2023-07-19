@@ -1,0 +1,23 @@
+@import '../colors.scss';
+
+.ant-switch {
+  min-width: 50px;
+  height: 30px;
+}
+
+.ant-switch-handle {
+  width: 26px;
+  height: 26px;
+
+  &::before {
+    border-radius: 100%;
+  }
+}
+
+.ant-switch-checked {
+  background-color: $main-purple;
+
+  .ant-switch-handle {
+    left: calc(100% - 26px - 2px);
+  }
+}

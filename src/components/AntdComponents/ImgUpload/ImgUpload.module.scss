@@ -1,0 +1,22 @@
+@import '../../../styles//colors.scss';
+
+
+.addPhoto {
+  width: 128px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $main-grey;
+  background: #F9FAFC;
+  border: 1px dashed #DDE5EC;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.image {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+}
